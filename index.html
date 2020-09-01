@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icon -->
+    <link rel="icon" href="./iconmonstr-code-5.svg">
+
+    <title>JavaScript Basics</title>
+</head>
+<body>
+
+    <!-- inline js -->
+    <button onclick="alert('hello,world')">
+        submit
+    </button>
+
+    <button class="btn" id="btn">submit here</button>
+    <button class="btn">submit here</button>
+    <button class="btn">submit here</button>
+    <button class="btn">submit here</button>
+    <button class="btn">submit here</button>
+    <button class="btn">submit here</button>
+
+    <h2 class="h2">
+        Lorem ipsum dolor sit amet.
+    </h2>
+
+    <h2 id="tit">
+        Lorem, ipsum dolor.
+    </h2>
+
+    <p class="title">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, hic!
+    </p>
+
+    <ul id="special">
+        <li class="item">
+            Lorem ipsum dolor sit amet.
+        </li>
+        <li class="item">
+            Lorem ipsum dolor sit amet.
+        </li>
+        <li class="item">
+            Lorem ipsum dolor sit amet.
+        </li>
+        <li class="item">
+            Lorem ipsum dolor sit amet.
+        </li>
+    </ul>
+
+    <button type="button" id="btnn">
+        press here
+    </button>
+
+    <p id="paragraph">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores voluptatibus necessitatibus facere voluptas magni sint sunt labore, quia autem quidem.
+    </p>
+
+    <h3>
+        Lorem ipsum dolor sit.
+    </h3>
+
+    <h3>
+        Lorem ipsum dolor sit.
+    </h3>
+
+    <h2>
+        Political Parties in AndhraPradesh
+    </h2>
+
+    <ul>
+        <li class="variety">
+            TeluguDesamParty
+        </li>
+
+        <li>
+            JanasenaParty
+        </li>
+
+        <li class="variety">
+            CommunistParty
+        </li>
+
+        <li>
+            CongressParty
+        </li>
+    </ul>
+
+    <h3>
+        Types Of Fruits
+    </h3>
+
+    <ul id="Fruits">
+
+        <li class="pandu" >
+            Apples
+        </li>
+
+        <li class="pandu" >
+            Orange
+        </li>
+
+        <li class="pandu" >
+            Banana
+        </li>
+
+    </ul>
+
+    <h4>
+        Types Of Pencil Companies
+    </h4>
+
+    <ul id="pencil">
+
+        <li>
+            Apsara
+        </li>
+
+        <li>
+            Nataraja
+        </li>
+
+        <li>
+            HP
+        </li>
+
+    </ul>
+
+    <h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, asperiores.
+    </h5>
+
+    <!-- Internal JS -->
+    <script>
+        document.querySelectorAll('.btn').forEach((item) => {
+            item.addEventListener('click', () =>{
+                alert('hello')
+            })
+        })
+    </script>
+
+<!-- External JS -->
+    <!-- <script src="./array-methods.js"></script> -->
+    <script src="./DOM.js"></script>
+    <script src="./objectDom.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./iconmonstr-code-5.svg">
+    <title>Document</title>
+
+    <style>
+        .color{
+            background: chartreuse;
+            color: cornsilk;
+            text-transform: capitalize;
+            padding: 1rem;
+            border: 2px solid red;
+        }
+
+        .btn{
+            background: red;
+            color: rosybrown;
+            padding: 1rem;
+            border: 1px solid lightblue;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        About Events in JavaScript
+    </h1>
+
+<button type="button" class="color">
+    press here
+</button>
+
+<!-- inline JS -->
+<p onclick="this.classList.add('color')">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, fuga!
+</p>
+
+<h2>
+    Events in JavaScript
+</h2>
+
+<button type="button" class="btn">
+    Click Me
+</button>
+
+<script src="./event.js"></script>
+</body>
+</html>
